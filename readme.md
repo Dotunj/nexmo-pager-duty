@@ -26,7 +26,7 @@ Want to contribute to this library? Read our [contributor guidelines](CONTRIBUTI
 
 ## License
 
-This library is released under the [MIT License](LICENSE).
+This library is released under the [MIT License](LICENSE.md).
 
 ## Help
 
