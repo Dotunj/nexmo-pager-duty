@@ -22,11 +22,11 @@ You'll also need to [register for a Nexmo Account](https://dashboard.nexmo.com/s
 
 ## Contributing
 
-Want to contribute to this library? Read our [contributor guidelines](CONTRIBUTING.md) to get set up.
+Want to contribute to this demo? Read our [contributor guidelines](CONTRIBUTING.md) to get set up.
 
 ## License
 
-This library is released under the [MIT License](LICENSE.md).
+This demo is released under the [MIT License](LICENSE.md).
 
 ## Help
 
