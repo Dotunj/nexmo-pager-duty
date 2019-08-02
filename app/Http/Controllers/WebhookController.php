@@ -20,7 +20,7 @@ class WebhookController extends Controller
 
     public function report(Request $request)
     {
-        //Log::debug('Incident', $request->all());
+        Log::debug('Incident', $request->all());
 
         dispatch(new ReportIncident());
 
