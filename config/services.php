@@ -45,13 +45,11 @@ return [
     ],
 
     'nexmo' => [
-        'key' => env('NEXMO_KEY'),
-        'secret' => env('NEXMO_SECRET'),
-        'sms_from' => env('SMS_FROM'),
-        'sms_to' => env('SMS_TO'),
         'jwt' => env('NEXMO_JWT'),
-        'sms_dotun' => env('SMS_TO_DOTUN'),
-        'sms_yomi' => env('SMS_TO_YOMI')
+        'fb_sender_id' => env('FB_SENDER_ID'),
+        'fb_recipient_id' => env('FB_RECIPIENT_ID'),
+        'sms_from' => env('SMS_FROM'),
+        'sms_to' => env('SMS_TO')
     ]
 
 ];

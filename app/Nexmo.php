@@ -35,8 +35,8 @@ class Nexmo
                 'template' => 'failover',
                 'workflow' => [
                  [
-                    'from' => [ 'type' => 'sms','number' => config('services.nexmo.sms_from')],
-                    'to' => ['type' => 'sms', 'number' => config('services.nexmo.sms_dotun')],
+                    'from' => [ 'type' => 'messenger','id' => config('services.nexmo.fb_recipient_id')],
+                    'to' => ['type' => 'messenger', 'id' => config('services.nexmo.fb_sender_id')],
                     'message' => [
                       'content' => [
                         'type' => 'text',
@@ -45,12 +45,12 @@ class Nexmo
                      ],
                     'failover' =>[
                       'expiry_time' => 15,
-                      'condition_status' => 'delivered',
+                      'condition_status' => 'read',
                     ]
                    ],
                   [
                     'from' => ['type' => 'sms','number' => config('services.nexmo.sms_from')],
-                    'to' => ['type' => 'sms','number' => config('services.nexmo.sms_yomi')],
+                    'to' => ['type' => 'sms','number' => config('services.nexmo.sms_to')],
                     'message' => [
                       'content' => [
                         'type' => 'text',
